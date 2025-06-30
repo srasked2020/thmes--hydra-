@@ -1,0 +1,44 @@
+.sidebar,
+.header,
+.container__content,
+.bottom-panel {
+  background: transparent;
+}
+
+body {
+  color: #b7b7b7;
+}
+
+#root {
+  background: url(https://www.diariodocentrodomundo.com.br/wp-content/uploads/2022/03/formatacao-5-7.png)
+    #998e8e;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-field-container__text-field--dark,
+.text-field-container__text-field--primary,
+.header__search,
+.game-item,
+.settings__content,
+.catalogue__filters-container,
+.friends-box__box,
+.user-stats__box,
+.recent-games__box,
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.333) !important;
+  backdrop-filter: blur(8px);
+}
+
+.container__content .button--outline {
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.33);
+  
+}
+
+.settings-download-sources__item,
+.download-group__item,
+.game-item {
+  background-color: rgba(0, 0, 0, 0.332) !important;
+}
